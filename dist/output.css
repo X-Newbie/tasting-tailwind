@@ -540,6 +540,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 400px;
 }
 
+.h-\[585px\] {
+  height: 585px;
+}
+
+.h-\[603px\] {
+  height: 603px;
+}
+
 .h-\[550px\] {
   height: 550px;
 }
@@ -560,8 +568,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 98px;
 }
 
+.w-\[603px\] {
+  width: 603px;
+}
+
+.w-\[885px\] {
+  width: 885px;
+}
+
 .w-\[60\%\] {
   width: 60%;
+}
+
+.w-\[500px\] {
+  width: 500px;
 }
 
 .w-\[63\%\] {
@@ -658,14 +678,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#C4C4C4\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(196 196 196 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#ffffff\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#C4C4C4\] {
+.bg-\[\#FEB900\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(196 196 196 / var(--tw-bg-opacity));
+  background-color: rgb(254 185 0 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#333333\] {
