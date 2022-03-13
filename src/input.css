@@ -1,0 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body    {
+    font-family: 'Poppins';
+}
+.vertical   {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* End */
+/* Footer */
+
+header  {
+    background: #333;
+    height: 100px;
+    display: block;
+}
+div.nav>ul>li   {
+    display: inline-block;
+    margin-left: 43px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+div.nav>ul>li>a:hover   {
+    color: #FEB900;
+}
+
+/* End */
+
+/* Section Main */
+
+section.main    {
+    background: #333;
+}
+
+/* End */
+
+/* Section mainContent */
+
+.subTitle__info {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 154%;
+    text-transform: uppercase;
+    color: #999999
+}
+
+.title__info    {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 104%;
+}
+
+.p__info    {
+    font-size: 14px;
+    line-height: 200%;
+    color: #999999;
+}
+
+.btn__info  {
+    font-weight: 600;
+    line-height: 154%;
+    text-transform: uppercase;
+}
+
+
+.rectangle__mainContent p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 154%;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+.rectangle__mainContent footer  {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 154%;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+.item__mainContent > p    {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 104%;
+    text-align: right;
+    display: inline-block;
+    color: #000000;
+}
+
+/* End */
+
+/* Section Slider */
+
+.__slider   {
+    background: #EFECE5;
+}
+.__slider li {
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 42px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #999999
+}
+.__slider li:hover  {
+    color: #000;
+}
+.slider__header {
+    margin-left: 50%;
+}
+
+/* End */
+
+/* Section Testimonials*/
+.testimonials > .content__testimonials  {
+    margin: 180px auto 570px;
+}
+
+.title__testimonials > p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 154%;
+    letter-spacing: 0.72em;
+    text-transform: uppercase;
+
+    color: #999999;
+}
+.subTitle__testimonials p{
+    font-size: 48px;
+    line-height: 104%;
+    color: #000000;
+    max-width: 405px;
+    margin: 0 auto;
+    font-weight: 600;
+}
+.title__main    {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 154%;
+}
+.content__main > p  {
+    font-size: 14px;
+    line-height: 200%;
+}
+.footer__testimonials {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 154%;
+}
+.footer__testimonials span  {
+    color: rgb(254,185,0);
+}
+.footer__footer {
+    margin: 0 auto;
+}
+ul.footer > li   {
+    display: inline;
+    font-size: 16px;
+    line-height: 39px;
+    text-transform: uppercase;
+    margin-left: 43px;
+    color: #fff;
+}
+ul.footer > li:hover   {
+    color: #FEB900
+}
+.inc    {
+    font-size: 16px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.inc span   {
+    font-weight: 600;
+}
